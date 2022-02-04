@@ -1,0 +1,12 @@
+section{
+    width: 500px;
+    border: 5px dotted black;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(146, 247, 80);
+    border-radius: 100%;
+}
+
+img{
+    border-radius: 100%;
+}
