@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Demo</title>
+</head>
+
+<style>
+    #content {
+       display: grid;
+       grid-template-columns: 100px 100px 100px;
+    }
+
+    .red {
+        grid-column: 1/3;
+        grid-row: 1/3;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+
+    .green {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+
+    .yellow {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+    }
+
+    .blue {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+</style>
+
+<body>
+<div id="content">
+    <div class="red"></div>
+    <div class="green"></div>
+    <div class="yellow"></div>
+    <div class="blue"></div>
+</div>
+</body>
+
+</html>
