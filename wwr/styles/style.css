@@ -71,6 +71,8 @@ h4 {
 .home-grid {
     text-align: center;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
     
 }
 
@@ -146,6 +148,7 @@ body {
 
 main section img {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 header {
