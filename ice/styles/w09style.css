@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    background-color: #1e1e1e;
+}
+
+article{
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    background-color: white;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 3%;
+}
+
+footer{
+    
+}
