@@ -152,3 +152,61 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+
+/* About the founders CSS */
+
+
+.founders-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.founders-heading{
+    color: #FE476F;
+    font-size: 3em;
+    text-align: center;
+}
+
+.founders-img{
+    max-width: 50%;
+    padding: 0em 1em 0em 1em;
+}
+
+
+/* Inner Circle CSS */
+
+.inner-circle-heading{
+    color: #FE476F;
+    text-align: center;
+    font-size: 3em;
+}
+
+#inner-circle-hero-img{
+    width: 100vw;
+}
+
+.inner-circle-content img{
+    width:600px
+}
+
+.inner-circle-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.inner-circle-content p{
+    padding: 0em 1em 0em 1em;
+    color: #FE476F;
+    font-size: 2em;
+}
+
+.inner-circle-content h2{
+    text-align: center;
+    color: #FE476F;
+    font-size: 2.2em;
+}
+
