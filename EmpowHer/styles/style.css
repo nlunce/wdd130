@@ -54,7 +54,7 @@ header {
     background-color: #FE476F;
     display: grid;
     grid-template-columns: 150px auto;
-    width: 100vw;
+    width: 100%;
 }
 
 nav {
