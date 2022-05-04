@@ -161,7 +161,7 @@ footer {
 .founders-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: .5fr .5fr;
 }
 
 .founders-heading{
@@ -175,7 +175,35 @@ footer {
     padding: 0em 1em 0em 1em;
 }
 
+.founders-img-container{
+    text-align: center;
+}
 
+.founder-sam h2{
+    text-align: center;
+}
+
+.founder-rachel h2{
+    text-align: center;
+}
+
+.founder-sam{
+    background-color: #FE476F;
+    color: #ffffff;
+}
+
+.founder-rachel{
+    background-color: #FE476F;
+    color: #ffffff;
+}
+
+.founder-rachel p{
+    padding:0em 1em 0em 1em;
+}
+
+.founder-sam p{
+    padding:0em 1em 0em 1em;
+}
 /* Inner Circle CSS */
 
 .inner-circle-heading{
